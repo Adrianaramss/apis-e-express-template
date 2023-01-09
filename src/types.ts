@@ -9,3 +9,10 @@ export type TCourse = {
     lessons: number,
     stack: COURSE_STACK
 }
+
+export type TEstudent ={
+    id:string,
+    name:string,
+    age:number
+
+}
